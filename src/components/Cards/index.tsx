@@ -5,14 +5,13 @@ import {
   CardMedia,
   Card as CardMui,
 } from "@mui/material";
-
+import { Link } from "react-router-dom";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
+import { PathRoutes } from "enums/PathRoutes";
 import graphics from "assets/img/graphics.jpg";
 import activity from "assets/img/activity.jpg";
-import { PathRoutes } from "enums/PathRoutes";
-import { Link } from "react-router-dom";
 
 export const Cards = () => {
   return (

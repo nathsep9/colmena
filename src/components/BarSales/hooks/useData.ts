@@ -1,8 +1,8 @@
 import { useMemo } from "react";
 
+import { SaleByRegion } from "models";
 import { DataItem, SalesDatum } from "../types";
 import { OperatorFilters } from "../constants";
-import { SaleByRegion } from "models";
 
 const filterByQuantity = (
   quantity: number,

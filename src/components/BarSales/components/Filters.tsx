@@ -12,8 +12,8 @@ import {
   Typography,
 } from "@mui/material";
 
-import { OperatorFilters } from "../constants";
 import { SaleByRegion } from "models";
+import { OperatorFilters } from "../constants";
 import useLimits from "../hooks/useLimits";
 
 interface FilterProps {

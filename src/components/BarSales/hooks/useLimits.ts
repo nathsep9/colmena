@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+
 import { SaleByRegion } from "models";
 
 export const useLimits = ({ dataRaw }: { dataRaw: SaleByRegion[] }) => {

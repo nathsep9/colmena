@@ -4,12 +4,11 @@ import useSWR from "swr";
 
 import BarSales from "components/BarSales";
 import { publicFetcher } from "utils";
-import { SaleByRegionService } from "../../models";
-import { SaleByRegion } from "../../models";
+import { SaleByRegionService, SaleByRegion } from "models";
 
 export const Graphics = () => {
   const { data, isLoading } = useSWR<SaleByRegionService[]>(
-    "/sales.json",
+    "./sales.json",
     publicFetcher
   );
 
